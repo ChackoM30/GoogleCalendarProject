@@ -3,7 +3,7 @@
 This program allows a user to access their Google Calendar from their terminal, instead of interfacing with Google Calendar on the browswer
 
 # Setting up
-First, follow Steps 1 and 2 in the link below to activate your Google Calendar API and install the ncessary Python libraries to use the progra,
+First, follow Steps 1 and 2 in the link below to activate your Google Calendar API and install the ncessary Python libraries to use the program
 
 NOTE: Make sure to place the file with the API credentials in the working directiory
 
