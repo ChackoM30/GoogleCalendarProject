@@ -17,12 +17,14 @@ def createNewEvent(service):
     begin_time = input("Enter start time(HH:MM:SS; military time): ")
     end_day = input("Enter end day(YYYY-MM-DD): ")
     end_time = input("Enter end time(HH:MM:SS; military-time): ")
+    locate = input("Enter location: ")
     begin = begin_day + "T" + begin_time + "-05:00"
     end = end_day + "T" + end_time + "-05:00"
     event = {
 
     'summary': summ,
     'description': describe,
+    'location': locate,
     'start': {
       'dateTime': begin,
     },
